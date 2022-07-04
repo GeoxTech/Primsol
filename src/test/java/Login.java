@@ -64,20 +64,49 @@ public class Login {
                 Thread.sleep(5000);
             }
 
-        @Test (priority = 1)
-        public void clickPlan() throws InterruptedException {
+            @Test (priority = 1)
+            public void clickPlan() throws InterruptedException {
 
-            Thread.sleep(2000);
-            //10. Click on any preferred Primsol plan
-            driver.findElement(By.xpath("/html/body/app-root/app-layout/app-landing-page/main/section[1]/div/div[1]/div[2]/app-options-fields/div/div[2]/label/div[2]/p[1]")).click();
+                Thread.sleep(3000);
+                //10. Click on any preferred Primsol plan
+                driver.findElement(By.xpath("/html/body/app-root/app-layout/app-landing-page/main/section[1]/div/div[1]/div[2]/app-options-fields/div/div[2]/label/div[2]/p[1]")).click();
 
-            Thread.sleep(2000);
-            driver.findElement(By.xpath("/html/body/app-root/app-layout/app-landing-page/main/section[1]/div/div[1]/div[2]/app-options-fields/div/button")).click();
+                Thread.sleep(3000);
+                // Click on the Login to goto dashboard
+                driver.findElement(By.xpath("/html/body/app-root/app-layout/app-landing-page/main/section[1]/div/div[1]/div[2]/app-options-fields/div/button")).click();
 
-            //5. Verify Element and get text on the User Dashboard
-            driver.findElement(By.xpath("/html/body/app-root/app-layout/mat-sidenav-container/mat-sidenav-content/app-new-layout/section/section[2]/section[1]/aside[1]/p[1]")).getText();
+                //5. Verify Element and get text on the User Dashboard
+                Thread.sleep(5000);
+                driver.findElement(By.xpath("/html/body/app-root/app-layout/mat-sidenav-container/mat-sidenav/div/app-user-sidebar/div/ul[1]/a[1]/div/span[3]")).click();
 
-        }
+                //Assertions
+                Thread.sleep(5000);
+                String expectedUrl = "https://primso-staging.lawpavilion.com/dashboard";
+                String actualUrl = driver.getCurrentUrl();
+                if (expectedUrl.contains(actualUrl))
+                    //Pass
+                    System.out.println("Dashboard active Passed");
+                else
+                    //Fail
+                    System.out.println("Dashboard active Failed");
+
+            }
+
+            @Test (priority = 2)
+            public void logout() throws InterruptedException {
+                //Clear the New update Pop-up tab
+                Thread.sleep(2000);
+                driver.findElement(By.xpath("//*[@id=\"newProductTeaser\"]/div/div/div[1]/button")).click();
+
+                //11. Click on the logout menu
+                Thread.sleep(4000);
+                driver.findElement(By.xpath("//*[@id=\"dropdownMenu2\"]/span[1]")).click();
+
+                //11. Click on the Logout button
+                Thread.sleep(4000);
+                driver.findElement(By.xpath("/html/body/app-root/app-layout/mat-sidenav-container/mat-sidenav-content/app-new-layout/section/section[1]/article[2]/div[1]/div/div[2]/div/div[4]/div/div")).click();
+
+            }
 
         @AfterTest
         public void closeBrowser () {
