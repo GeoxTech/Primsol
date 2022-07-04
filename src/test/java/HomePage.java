@@ -51,6 +51,14 @@ public class HomePage {
         Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/app-root/app-layout/app-header/header/nav/div[2]/ul/li[3]/a")).click();
 
+        //Scroll down the website
+        Thread.sleep(5000);
+        js.executeScript("window.scrollBy(0, document.body.scrollHeight);");
+
+        //Scroll up the website
+        Thread.sleep(5000);
+        js.executeScript("window.scrollBy(0, -5106);");
+
         //Confirm page pricing page url link withing the homepage
         String expectedpageUrl ="https://primso-staging.lawpavilion.com/compare";
         String actualPageurl = driver.getCurrentUrl();
@@ -113,7 +121,6 @@ public class HomePage {
 
         //Check for body response within the Contact-Us Page
         Thread.sleep(5000);
-        js.executeScript("window.scrollBy(0, 600);");
         driver.findElement(By.xpath("/html/body/app-root/app-layout/app-contact-us/section/div/div[2]/div/h3")).getText();
         System.out.println(actualText);
 
@@ -132,8 +139,8 @@ public class HomePage {
         driver.findElement(By.xpath("/html/body/app-root/app-layout/app-contact-us/section/div/div[2]/div/form/div[5]/textarea")).sendKeys("What package can i subscribe to for my whole company ");
 
         //11. Click on the send button on the Get in touch with us form
-        Thread.sleep(5000);
-        js.executeScript("window.scrollBy(0, 900);");
+        Thread.sleep(3000);
+        js.executeScript("window.scrollBy(0, 300);");
         driver.findElement(By.xpath("/html/body/app-root/app-layout/app-contact-us/section/div/div[2]/div/form/button")).click();
         //Pass
         System.out.println("Messages successfully sent");
