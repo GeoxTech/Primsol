@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3e6170-6174-47b0-ac50-b372871c7265" name="Changes" comment="Update on login script">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd3e6170-6174-47b0-ac50-b372871c7265" name="Changes" comment="Updated script on login script" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656127914570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated script on login script">
+      <created>1656932615994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656932615996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated script on login script">
+      <created>1656932733462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656932733462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primsol homepage automation" />
     <MESSAGE value="Update on login script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update on login script" />
+    <MESSAGE value="Updated script on login script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated script on login script" />
   </component>
 </project>
