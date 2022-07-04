@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3e6170-6174-47b0-ac50-b372871c7265" name="Changes" comment="Updated script on login script -New">
-      <change afterPath="$PROJECT_DIR$/allure-results/0357914f-2f64-4a72-b8f1-a3437a6490a2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0511273b-a9c3-4cfb-87f9-201419c70796-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/185f737a-d41f-48d0-84bf-a313ed76062b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1a0c41b6-256e-4ade-a2ca-486ade27bfb9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1d42d9c0-9637-4a0c-9eea-3eafe9704a9d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1e0726a8-9ce0-45c7-bef1-9918df5f44ad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1f10a617-36b7-4151-b3e9-3c3c2dd9aa54-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/23b3a111-79fa-42fe-be0d-c60363894d1b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/25ee2a23-2d77-4413-820f-2e7052f5688d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3147cff9-91e2-46e9-9e5d-88bcfe0f397d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/34ef6af7-7a4e-4304-8fb3-e5788be4487a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/423fa388-2db9-4313-acb8-e199d3abc82b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/43ca3914-db88-403e-99de-f6e2c35479d2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4756b9e8-4016-40d9-a2a1-c7790491cbed-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/49b6060f-6060-4549-98a8-e8a123724b19-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/55c53653-f089-4b23-beee-893f3a90ef20-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/56d80e77-5b37-44ef-8d76-2809161c7aa8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5bb78ba0-91fc-437c-b621-75ddc0df054c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5bcb7988-e133-4c4d-9a0c-4031ecae0d0b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5c4abd7b-ff63-4976-bca4-638e8822b76d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/640339b1-9674-4ad4-860b-eb7150a07491-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/67b2605c-1f2f-4b1a-8706-a95591b78f20-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6a730462-d215-45a6-91b7-cc211ede767c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/703aabe0-8519-4a60-a433-f9084ce68a38-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/76dd55db-db17-4366-af49-a4d9187bb5b2-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8954f2d2-8bcd-404a-8a3e-ffc8a358b4dd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9069c372-bbe7-4917-97b7-6d714f7cb440-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a8e36515-fa5c-4f3b-b194-127ba41ab8ab-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/be542b65-2402-4a89-8958-7885f5832aa1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c37619e6-d6f4-46d6-a73a-2dd92692d9b9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c58bd502-25df-4e1a-8332-cceeb5151f6e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cdba947d-fae4-4c2a-9f4c-8848afe7e69f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d3b0559d-0e65-4416-9c58-a0a39ea13b7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/da7797cc-959c-4a51-926d-084f62732d12-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb773821-4553-4821-82be-cdebcb1d7d08-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fc039913-bd74-4caf-bb95-ae0a78a7e9a3-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd3e6170-6174-47b0-ac50-b372871c7265" name="Changes" comment="Updated script on login script -New" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -64,6 +26,13 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,15 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/gibbs/Desktop/Testify QA/untitled",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gibbs/Desktop/Testify QA/untitled&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -223,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656941775783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated script on login script -New">
+      <created>1656944699650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656944699650</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated script on login script -New">
+      <created>1656944916494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656944916495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +231,9 @@
     <MESSAGE value="Primsol homepage automation" />
     <MESSAGE value="Update on login script" />
     <MESSAGE value="Updated script on login script" />
+    <MESSAGE value="Updated script on login script -New1" />
     <MESSAGE value="Updated script on login script -New" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated script on login script -New" />
+    <MESSAGE value="Updated script on login script - Latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated script on login script - Latest" />
   </component>
 </project>
