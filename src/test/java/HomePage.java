@@ -41,9 +41,10 @@ public class HomePage {
 
         //5. Verify Element on the feature tab
         Thread.sleep(2000);
+        //This will scroll the page Horizontally till the element is found
         js.executeScript("window.scrollBy(0, 1500);");
         driver.findElement(By.xpath("/html/body/app-root/app-layout/app-features/div/section[6]/div/h2")).getText();
-        //This will scroll the page Horizontally till the element is found
+
         Thread.sleep(2000);
         //js.executeScript("arguments[0].scrollIntoView();",lp);
 
